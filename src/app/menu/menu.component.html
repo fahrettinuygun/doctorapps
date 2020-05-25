@@ -1,0 +1,74 @@
+<div class="sidebar">
+    <div class="profile-row">
+        <div class="col-md-12">
+            <div class="row">
+                <div>
+                    <div class="mini-profile"></div>
+                </div>
+                <div class="profile-info">
+                    <span class="welcome">Merhaba</span>
+                    <span>Dr. Uygun</span>
+                    <span>
+                        <ul>
+                            <li><a><i class="fas fa-envelope"></i></a></li>
+                            <li><a><i [routerLink]="['/profile']" routerLinkActive="router-link-active"  class="fas fa-user-md"></i></a></li>
+                            <li><a><i class="fas fa-sign-out-alt"></i></a></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row report-header">
+            <h5>GÜNLÜK RAPOR</h5>
+        </div>
+        <div class="row report-box-div">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4 report-box">
+                        <div class="waiting-call">
+                            <h4>5</h4>
+                            <p>
+                                Bekleyen
+                            </p>
+                        </div>
+                        <span class="tooltip-text for-waiting-call">Bekleyen Görüşme</span>
+                    </div>
+                    <div class="col-md-4 report-box">
+                        <div class="end-call">
+                            <h4>3</h4>
+                            <p>
+                                Görüşme
+                            </p>
+                        </div>
+                        <span class="tooltip-text for-end-call">Biten Görüşme</span>
+                    </div>
+                    <div class="col-md-4 report-box">
+                        <div class="end-call">
+                            <h4>8</h4>
+                            <p>
+                                Toplam
+                            </p>
+                        </div>
+                        <span class="tooltip-text for-end-call">Toplam Görüşme</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: calc(100vh - 184px);">
+            <ul class="list" style="overflow: hidden; width: auto; height: calc(100vh - 184px);">
+                <li class="header">MENÜLER</li>
+                <li><a [routerLink]="['/dashboard']" routerLinkActive="router-link-active" class="menu-toggle waves-effect waves-block"><i class="fas fa-home"></i><span>Anasayfa</span></a></li>                                             
+                <li><a [routerLink]="['/profile']" routerLinkActive="router-link-active"  class="menu-toggle waves-effect waves-block"><i class="fas fa-calendar"></i><span>Randevu Takvimi</span></a></li>                               
+                <li><a [routerLink]="['/profile']" routerLinkActive="router-link-active"  class="menu-toggle waves-effect waves-block"><i class="fas fa-stopwatch"></i><span>Randevularım</span></a></li>                                              
+                <li><a [routerLink]="['/profile']" routerLinkActive="router-link-active"  class="menu-toggle waves-effect waves-block"><i class="fas fa-user-md"></i><span>Profilim</span></a></li>                           
+                <li><a [routerLink]="['/profile']" routerLinkActive="router-link-active"  class="menu-toggle waves-effect waves-block"><i class="fas fa-user"></i><span>Hastalarım</span></a></li>                           
+                <li><a [routerLink]="['/profile']" routerLinkActive="router-link-active"  class="menu-toggle waves-effect waves-block"><i class="fas fa-file-alt"></i><span>Raporlar</span></a></li>                       
+                <li><a [routerLink]="['/profile']" routerLinkActive="router-link-active"  class="menu-toggle waves-effect waves-block"><i class="fas fa-tools"></i><span>Ayarlar</span></a></li>
+            </ul>
+            <div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.2); width: 4px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 0px; z-index: 99; right: 1px; height: 51.425px;"></div>
+            <div class="slimScrollRail" style="width: 4px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 0px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div>
+        </div>
+    </div>
+</div>

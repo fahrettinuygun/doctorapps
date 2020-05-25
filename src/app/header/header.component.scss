@@ -1,0 +1,127 @@
+* {
+  color: white;
+}
+
+.header {
+  //box-shadow: 0px 1px 5px 0px #00000052;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+.label-count {
+  position: absolute;
+  top: -3px;
+  //right: -2px;
+  font-size: 10px;
+  line-height: 15px;
+  background-color: #000;
+  padding: 0 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.color-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 239px;
+  padding: 0;
+  background: linear-gradient(45deg, #49cdd0, #ab9ae5);
+}
+
+.hospital-name {
+  font-weight: bold;
+  color: white;
+  font-family: "Fenix-Regular";
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.search-input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+    padding: 0px;
+    width: 65%;
+    color: white;
+}
+
+.right-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+i {
+  color: white;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+    background: linear-gradient(45deg, #54c8d2, #ab9ae5);
+  ul {
+    list-style: outside none none;
+    margin: 5px 0 0 -5px;
+    padding: 0;
+  }
+  li {
+    float: left;
+    margin-right: 20px;
+    a {
+      color: #fff;
+      float: left;
+      font-size: 12px;
+      height: 29px;
+      line-height: 29px;
+      text-align: center;
+      width: 29px;
+      i {
+        display: inline-block;
+        font-size: 18px;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+      }
+    }
+  }
+}
+
+.search-input-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-name {
+  margin: 0px;
+  font-family: "BalooThambi2-Medium";
+}
+
+.slogan {
+  font-size: 10px;
+  margin-top: -6px;
+  font-family: "BalooThambi2-Medium";
+}
